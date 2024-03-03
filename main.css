@@ -1,0 +1,108 @@
+/*--- page ---*/
+.left-with-space {
+	margin-left: 1px;
+	text-align: left !important;
+}
+.extra-padding {
+	margin-left: 8%;
+	margin-right: 8%;
+}
+.extra-padding-bottom {
+	margin-bottom: 5%;
+}
+.container {
+	padding-top: 10px;
+	max-width: 90%;
+	font-family: sans-serif;
+}
+body {
+	padding: 0;
+	margin: 0;
+	background: white;
+}
+.background {
+	background: white;
+	padding: 4em 0;
+}
+.image-extra {
+	border-style: solid;
+	/* keep this color, it matches the logo being used */
+	border-color:#00008A;
+	border-width: 4px;
+	max-width: 100px;
+	min-width: 90px;
+	height: auto;
+	aspect-ratio: 1/1 !important;
+	margin-top: 20px;
+}
+
+/*--- feature section ---*/
+.features {
+	padding: 1em;
+	position: relative;
+	text-align: center;
+}
+.features .btn {
+	background-color: #aeaeaf;
+	color: #00008A;
+	font-weight: bold;
+	border-style: solid;
+	/* border-color: #00008A; */
+	/* border-width: medium; */
+	/* border-radius: 6px; */
+}
+.features .btn:hover {
+	background-color: #00008A;
+	color: white;
+	font-weight: 900;
+}
+.features h3 {
+	color: rgb(27, 27, 27);
+	font-size: 130%;
+	font-weight: bold;
+	margin-top: 5px;
+}
+.features p {
+	font-size: 1.1rem;
+}
+
+/* to get the footer to stay on the bottom */
+#wrap {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+main {
+	flex: 1 0 auto;
+	background: white;
+	min-height: 100%;
+	max-height: 90%;
+}
+
+/*--- footer ---*/
+footer {
+	flex: 0 0 auto;
+	background-color: #101018;
+	color: white;
+	line-height: 1.2;
+	text-align: center;
+	padding-bottom: 10px;
+}
+footer a {
+	font-weight:550;
+}
+.footer-copyright a {
+	color: #959696;
+	padding-top: 7px;
+	font-size: .9rem;
+}
+
+/*--- media queries need for dynamic resize mobile ---*/
+@media (max-width: 991.98px) {
+}
+@media (max-width: 575.98px) {
+
+	.features {
+		margin: 0;
+	}
+}
